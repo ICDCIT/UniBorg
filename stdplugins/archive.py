@@ -11,13 +11,10 @@ Coded by @By_Azade
 
 import asyncio
 import os
-import shutil
 import subprocess
 import time
-from pySmartDL import SmartDL
 from sample_config import Config
-from telethon import events
-from uniborg.util import admin_cmd, humanbytes, progress, time_formatter
+from uniborg.util import admin_cmd, progress
 import subprocess
 import patoolib
 import logging
