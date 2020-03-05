@@ -1,13 +1,7 @@
-from telethon import events
 import subprocess
-from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
-import io
-import asyncio
-import time
 from uniborg.util import admin_cmd
 import glob
 import os
-import instantmusic
 # try:
 #   , subprocess
 # except:

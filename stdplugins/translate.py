@@ -5,12 +5,10 @@ Available Commands:
 import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
-from telethon import events
 
 from uniborg.util import admin_cmd
 
 from mtranslate import translate
-from sample_config import Config
 
 
 @borg.on(admin_cmd(pattern="tr ?(.*)"))
